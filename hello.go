@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	helloName()
+	memoryPointer()
 }
 
 func helloWorld() {
@@ -15,4 +15,13 @@ func helloName() {
 	var name string
 	fmt.Scanln(&name)
 	fmt.Printf("Hi, %s! I'm Go!", name)
+}
+
+func memoryPointer() {
+	// & = Is a variable that stores the Memory Address of another variable.
+	number := 42
+
+	pointer := &number
+
+	fmt.Println(pointer)
 }
