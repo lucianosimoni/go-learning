@@ -17,6 +17,7 @@ func helloName() {
 	fmt.Printf("Hi, %s! I'm Go!", name)
 }
 
+/* Quickly explains how the & and * works in Go */
 func memoryPointer() {
 	// & = Is a variable that stores the Memory Address of another variable.
 	// Declare a variable 'num' and assign a value
